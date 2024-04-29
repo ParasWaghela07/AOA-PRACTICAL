@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TIME :- O(N^2) // BEST:O(N) IF SORTED
+//SPACE :- O(1) // SORTING
+
 int main(){
     vector<int>v={3,1,5,7,3,2,0};
 

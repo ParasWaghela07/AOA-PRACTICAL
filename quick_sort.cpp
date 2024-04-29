@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TIME :- O(NLOGN) // PARTITION AND MERGING // DNC //WORST CASE :- O(N^2) //DUE TO ALREADY SORTED PARTITIONS EACH ELEMENT
+//SPACE :- O(1) // 
+
 void quicksort(vector<int>&v,int s,int e){
     if(s>=e){
         return;

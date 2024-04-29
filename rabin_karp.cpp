@@ -1,6 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TIME :- O(M*(N-M+1))// BUT CAN BE BETTER THAN NAIVE DUE TO HASHING THEN MATCHING //BEST : O(N+M)
+//SPACE :- O(1) // HASH VAR // SPURIOUS HITS
+
+
 int main(){
     string t="ABGFDABTYACAB";
     string p="AB";

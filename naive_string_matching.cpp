@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// TIME :- O(M*(N-M+1)) // BRUTE FORCE
+// SPACE :- O(1) // STRING MATCHING
+
 int main(){
     string t="ABGFDABTYACAB";
     string p="AB";

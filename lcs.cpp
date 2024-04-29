@@ -1,5 +1,9 @@
 #include <bits/stdc++.h>
 using namespace std;
+
+//TIME : - O(MN) // SIZES OF STRINGS
+//SPACE :- O(MN) // DP // TABLE
+
 void printlcs(vector<vector<char>> &dir,int i,int j,string &b){
     if(dir[i][j]=='.') return;
 

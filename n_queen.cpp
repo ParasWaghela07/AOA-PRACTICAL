@@ -1,5 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
+
+//TIME : - O(N!) // BACKTRACKING
+//SPACE :- O(N^2) //  BOARD // BRUTE FORCE
+
 void printqueen(auto &b){
     for(int i=0;i<b.size();i++){
         for(int j=0;j<b[0].size();j++){

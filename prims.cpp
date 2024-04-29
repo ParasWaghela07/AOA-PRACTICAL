@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TIME :- O(ELOGV) //GREEDY
+//SPACE :- O(V+E) // MST
+
 void printmst(vector<int>&parent,vector<vector<pair<int,int>>>&g){
     cout<<"Edge\t"<<"Weight"<<endl;
     for(int i=0;i<parent.size();i++){

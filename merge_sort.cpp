@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TIME :- O(NLOGN) // DNC
+//SPACE :- O(N) // TEMP ARRAYS
+
 void merge(vector<int>&v,int s,int e,int mid){
     vector<int>left;
     vector<int>right;

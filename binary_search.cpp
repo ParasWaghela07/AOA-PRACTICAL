@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//TIME :- O(LOGN) //BEST CASE :- O(1)
+//SPACE :- O(1) //DNC
 int bs(auto &v,int s,int e,int &t){
     if(s>e){
         return -1;

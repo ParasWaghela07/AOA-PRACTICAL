@@ -1,5 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
+//TIME :- O(N) //DNC
+//SPACE :- O(1) //RECURSION STACK SPACE !
 
 void findminmax(vector<int>&v,int s,int e,int &mini,int &maxi){
     if(s>e){

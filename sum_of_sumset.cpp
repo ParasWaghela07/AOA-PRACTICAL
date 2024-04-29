@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TIME :- O(2^N) // RECURSION // INCLUDE //EXCLUDE // BACKTRACKING
+//SPACE :- O(N) // RECURSION STACK OR TEMP ARRAY
+
 void sos(int index,auto &v,auto &temp,auto &ans,int target){
     if(target<0) return;
 

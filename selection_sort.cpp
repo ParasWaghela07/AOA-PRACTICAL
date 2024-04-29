@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-
+//TIME :- O(N^2) // SORTING
+//SPACE :- O(1)
 int main(){
     vector<int>v={3,1,5,7,3,2,0};
 

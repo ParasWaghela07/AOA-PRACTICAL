@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TIME :- O(NLOGN) //GREEDY //SORTING
+//SPACE :- O(N)
+
 int main(){
     vector<int>profit={30,20,10};
     vector<int>weight={20,10,2};

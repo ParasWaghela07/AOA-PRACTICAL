@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//TIME :- O(NLOGN) // GREEDY //sorting
+//SPACE :- O(N) // JOBS OBJECTS
+
 int check(auto &ans,int d){
     for(int i=0;i<ans.size();i++){
         if(ans[i]==-1) return i;
